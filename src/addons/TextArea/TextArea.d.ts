@@ -10,6 +10,13 @@ export interface TextAreaProps {
   autoHeight?: boolean;
 
   /**
+   * Called with the ref to the DOM node.
+   *
+   * @param {HTMLTextAreaElement} node - An inner DOM node of the Component.
+   */
+  innerRef?: (node: HTMLTextAreaElement) => void;
+
+  /**
    * Called on change.
    *
    * @param {SyntheticEvent} event - The React SyntheticEvent object

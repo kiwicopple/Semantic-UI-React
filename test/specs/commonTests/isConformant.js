@@ -7,6 +7,7 @@ import * as semanticUIReact from 'semantic-ui-react'
 import { META } from 'src/lib'
 import helpers from './commonHelpers'
 import componentInfo from './componentInfo'
+import implementsInnerRef from './implementsInnerRef'
 import hasValidTypings from './hasValidTypings'
 import { consoleUtil, sandbox, syntheticEvent } from 'test/utils'
 
@@ -347,4 +348,9 @@ export default (Component, options = {}) => {
   // Test typings
   // ----------------------------------------
   hasValidTypings(Component, extractedInfo, options)
+
+  // ----------------------------------------
+  // Test innerRef
+  // ----------------------------------------
+  implementsInnerRef(Component, options)
 }

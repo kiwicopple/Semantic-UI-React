@@ -29,7 +29,15 @@ class TextArea extends Component {
     autoHeight: PropTypes.bool,
 
     /**
+     * Called with the ref to the DOM node.
+     *
+     * @param {HTMLTextAreaElement} node - An inner DOM node of the Component.
+     */
+    innerRef: PropTypes.func,
+
+    /**
      * Called on change.
+     *
      * @param {SyntheticEvent} event - The React SyntheticEvent object
      * @param {object} data - All props and the event value.
      */
@@ -80,7 +88,10 @@ class TextArea extends Component {
     this.updateHeight()
   }
 
-  handleRef = c => (this.ref = c)
+  handleRef = c => {
+    this.ref = c
+    _.invoke(this.props, 'innerRef', c)
+  }
 
   removeAutoHeightStyles = () => {
     this.ref.style.height = null
