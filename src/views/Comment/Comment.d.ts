@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'preact-compat';
 
 import { default as CommentAction } from './CommentAction';
 import { default as CommentActions } from './CommentActions';

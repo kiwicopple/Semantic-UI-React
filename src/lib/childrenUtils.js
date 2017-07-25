@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { Children } from 'react'
+import { Children } from 'preact-compat'
 
 /**
  * Determine if child by type exists in children.

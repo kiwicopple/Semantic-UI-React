@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'preact-compat';
 import { default as RatingIcon } from './RatingIcon';
 
 export interface RatingProps {

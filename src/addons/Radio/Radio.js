@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'preact-compat'
 
 import { getUnhandledProps, META } from '../../lib'
 import Checkbox from '../../modules/Checkbox'

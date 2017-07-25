@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import PropTypes from 'prop-types'
-import { Children, cloneElement } from 'react'
-import ReactDOM from 'react-dom'
+import { Children, cloneElement } from 'preact-compat'
+import ReactDOM from 'preact-compat'
 
 import {
   AutoControlledComponent as Component,

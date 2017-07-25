@@ -1,6 +1,6 @@
 import cx from 'classnames'
 import PropTypes from 'prop-types'
-import React from 'react'
+import React from 'preact-compat'
 
 import {
   createShorthandFactory,

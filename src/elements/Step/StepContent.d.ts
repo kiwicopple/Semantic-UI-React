@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'preact-compat';
 
 import { SemanticShorthandItem } from '../..';
 import { StepDescriptionProps } from './StepDescription';

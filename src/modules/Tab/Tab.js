@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import PropTypes from 'prop-types'
-import React from 'react'
+import React from 'preact-compat'
 
 import {
   AutoControlledComponent as Component,

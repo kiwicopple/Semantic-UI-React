@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'preact-compat';
 
 import { RadioProps } from '../../addons/Radio';
 import { FormFieldProps } from './FormField';

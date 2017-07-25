@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'preact-compat';
 
 import { SemanticCOLORS, SemanticWIDTHS, SemanticShorthandCollection } from '../..';
 import { StatisticProps, StatisticSizeProp } from './Statistic';

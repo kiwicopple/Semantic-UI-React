@@ -1,7 +1,7 @@
 import cx from 'classnames'
 import _ from 'lodash'
 import PropTypes from 'prop-types'
-import React, { createElement } from 'react'
+import React, { createElement } from 'preact-compat'
 
 import {
   createHTMLLabel,

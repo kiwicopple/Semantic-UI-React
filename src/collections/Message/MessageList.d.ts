@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'preact-compat';
 
 import { SemanticShorthandCollection } from '../..';
 import { MessageItemProps } from './MessageItem';

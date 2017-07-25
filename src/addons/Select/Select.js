@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'preact-compat'
 
 import { META } from '../../lib'
 import Dropdown from '../../modules/Dropdown'

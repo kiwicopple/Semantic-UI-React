@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'preact-compat';
 
 import { LabelProps } from '../../elements/Label';
 import { default as DropdownDivider } from './DropdownDivider';

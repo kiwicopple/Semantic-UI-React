@@ -24,7 +24,7 @@
  *    hoisted and exposed by the HOC.
  */
 import _ from 'lodash'
-import { Component } from 'react'
+import { Component } from 'preact-compat'
 
 const getDefaultPropName = (prop) => `default${prop[0].toUpperCase() + prop.slice(1)}`
 

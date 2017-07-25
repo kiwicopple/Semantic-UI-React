@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import cx from 'classnames'
-import React, { cloneElement, isValidElement } from 'react'
+import React, { cloneElement, isValidElement } from 'preact-compat'
 
 // ============================================================
 // Factories

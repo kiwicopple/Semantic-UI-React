@@ -1,7 +1,7 @@
 import cx from 'classnames'
 import _ from 'lodash'
 import PropTypes from 'prop-types'
-import React, { Component, isValidElement } from 'react'
+import React, { Component, isValidElement } from 'preact-compat'
 
 import {
   childrenUtils,

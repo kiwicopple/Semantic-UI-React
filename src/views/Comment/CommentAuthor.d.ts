@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'preact-compat';
 
 export interface CommentAuthorProps {
   [key: string]: any;

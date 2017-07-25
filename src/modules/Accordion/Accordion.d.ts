@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'preact-compat';
 
 import { default as AccordionContent } from './AccordionContent';
 import { default as AccordionTitle } from './AccordionTitle';
